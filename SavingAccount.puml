@@ -1,0 +1,13 @@
+@startuml
+class SavingAccount {
+~ long accountNumber
+~ String accountHolderName
+~ String accountStatus
+~ double accountBalance
++ long generateAccountNumber()
++ double withDrawCash()
++ double checkBalance()
++ int depositCash()
++ int transferFunds()
+}
+@enduml
